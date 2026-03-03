@@ -4,9 +4,9 @@ import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";
 
-const Home = () => <>Home</>;
-const Products = () => <>Products</>;
-const Contacts = () => <>Contacts</>;
+const Home = () => <div>Home</div>;
+const Products = () => <div>Products</div>;
+const Contacts = () => <div>Contacts</div>;
 
 export const App = () => {
   return (

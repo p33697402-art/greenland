@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 
 export const Commentsection = () => {
   return (
-    <div className="w-full flex justify-center sm:px-8 md:px-[8%] lg:px-[%10] py-10">
+    <div className="w-full flex justify-center sm:px-8 md:px-[8%] lg:px-[10%] py-10">
       <div className="w-full flex flex-col md:flex-row gap-8">
         <div className="flex-1 bg-[#aadcdc] p-6 rounded-2xl shadow-md hover:scale-105 transition duration-300 transform">
           <div className="flex items-center gap-4">

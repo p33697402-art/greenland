@@ -17,7 +17,7 @@ export const Section2 = () => {
   ];
 
   return (
-    <section className="w-full bg-[#aadcdc] flex justify-center py-20">
+    <section className="w-full bg-[#aadcdc] flex justify-center py-20 mt-40">
       <div className="w-[90%] max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 items-stretch">
         {items.map((item, i) => (
           <div

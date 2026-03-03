@@ -3,8 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";
+
 const Home = () => <>Home</>;
-const Products = () => <>Product</>;
+const Products = () => <>Products</>;
 const Contacts = () => <>Contacts</>;
 
 export const App = () => {
@@ -18,8 +19,8 @@ export const App = () => {
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </main>
-      <Main/>
-      <Footer/>
+      <Main />
+      <Footer />
     </div>
   );
 };

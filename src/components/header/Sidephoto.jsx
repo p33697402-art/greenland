@@ -19,3 +19,5 @@ const Sidephoto = () => {
 };
 
 export default Sidephoto;
+
+
